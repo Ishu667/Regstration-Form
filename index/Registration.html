@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+</head>
+<body>
+    <center><h1><em><u>Registration Form</u></em></h1></center>
+    <hr>
+    <form>
+        <label for="name"><i><b>Name :</b></i></label>&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Your Name" id="name" class="name"><br><br>
+
+        <label for="fname"><i><b>father's Name :</b></i></label>&nbsp;&nbsp;&nbsp;<input type="text" id="fname"class="name"><br><br>
+
+        <label for="mname"><i><b>Mother's Name :</b></i></label>&nbsp;&nbsp;&nbsp;<input type="text" id="mname" class="name"><br><br>
+
+        <label for="contact"><i><b>Contact.No :</b></i></label>&nbsp;&nbsp;&nbsp;<input type="number" id="contact" class="name"><br><br>
+
+        <label for="email"><i><b>Email :</b></i></label>&nbsp;&nbsp;&nbsp;<input type="email" id="email" class="name"><br><br>
+
+        <label for="img"><b><i>Upload Photo :</i></b></label>&nbsp;&nbsp;&nbsp;<input type="file"><br><br>
+
+        <label ><i><b>Gender :</b></i></label>&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <label for="gender1"><b><i>Male</i></b></label>
+        <input type="radio" id="gender1" name="radiobox">
+        
+        <label for="gender2"><b><i>Female</i></b></label>
+        <input type="radio" id="gender2" name="radiobox">
+        
+        <label for="gender3"><b><i>Other</i></b></label>
+        <input type="radio" id="gender3" name="radiobox"><br><br>
+        <label for="textarea"><b><i>Address :</i></b></label><br>
+        <textarea id="textarea" cols="70" rows="6" placeholder="Enter Your Permanent Address"></textarea><br><br>
+        <label for="dept"><b><i>Department</i></b></label>&nbsp;&nbsp;&nbsp;
+        <select id="dept" name="dept">
+            <optgroup>
+                <option value="cse">CSE</option>
+                <option value="ce">CE</option>
+            </optgroup>
+            <optgroup>
+            <option value="eee">EEE</option>
+            <option value="ece">ECE</option>
+            <option value="ee">EE</option>
+            </optgroup>
+            <optgroup>
+            <option value="">Civil</option>
+            <option value="mech">Mechanical</option>
+            <option value="others">Others</option>
+            </optgroup>
+        </select>
+    </form><br><br>
+    <label for="dob"><b><i>Date Of Birth :</i></b></label>&nbsp;&nbsp;&nbsp;
+        <input type="date" id="dob"><br><br>
+
+    <label><b><i>Courses :</i></b></label>&nbsp;&nbsp;&nbsp;
+    <select>
+        <option value="W">Web Development</option>
+        <option value="J">Java Full Stack</option>
+        <option value="P">Python Full stack</option>
+        <option value="S">MySQL</option>
+        <option value="F">Full Stack Development</option>
+        <option value="Others">Others</option>
+    </select><br><br>
+    <label for="resume"><b><i>Upload resume :</i></b></label>&nbsp;&nbsp;&nbsp;
+    <input type="file" id="resume"><br>
+    <h2><b><i><u><mark>About us &#128394;</mark></u></i></b></h2>
+    <textarea rows="6" cols="20" placeholder="Write Something About Us &smile;"></textarea>
+    <center><input type="submit" name="submit"></center>
+    <hr>
+</body>
+</html>
